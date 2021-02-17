@@ -1,0 +1,17 @@
+.clockBlock {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.buttonBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media screen and (min-width: 560px) {
+  .clockBlock {
+    font-size: 3em;
+  }
+}
