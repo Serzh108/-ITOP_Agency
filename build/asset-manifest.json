@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ITOP_Agency/static/css/main.b9fbc9b3.chunk.css",
+    "main.js": "/ITOP_Agency/static/js/main.bef1d346.chunk.js",
+    "main.js.map": "/ITOP_Agency/static/js/main.bef1d346.chunk.js.map",
+    "runtime-main.js": "/ITOP_Agency/static/js/runtime-main.6a70d9fb.js",
+    "runtime-main.js.map": "/ITOP_Agency/static/js/runtime-main.6a70d9fb.js.map",
+    "static/css/2.de71bbd8.chunk.css": "/ITOP_Agency/static/css/2.de71bbd8.chunk.css",
+    "static/js/2.4b54ee64.chunk.js": "/ITOP_Agency/static/js/2.4b54ee64.chunk.js",
+    "static/js/2.4b54ee64.chunk.js.map": "/ITOP_Agency/static/js/2.4b54ee64.chunk.js.map",
+    "index.html": "/ITOP_Agency/index.html",
+    "static/css/2.de71bbd8.chunk.css.map": "/ITOP_Agency/static/css/2.de71bbd8.chunk.css.map",
+    "static/css/main.b9fbc9b3.chunk.css.map": "/ITOP_Agency/static/css/main.b9fbc9b3.chunk.css.map",
+    "static/js/2.4b54ee64.chunk.js.LICENSE.txt": "/ITOP_Agency/static/js/2.4b54ee64.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ITOP_Agency/static/media/pt-sans-v12-latin-regular.ab33818f.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a70d9fb.js",
+    "static/css/2.de71bbd8.chunk.css",
+    "static/js/2.4b54ee64.chunk.js",
+    "static/css/main.b9fbc9b3.chunk.css",
+    "static/js/main.bef1d346.chunk.js"
+  ]
+}

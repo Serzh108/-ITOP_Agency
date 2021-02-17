@@ -2,9 +2,8 @@
   "name": "itop_agensy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Serzh108.github.io/ITOP_Agensy",
+  "homepage": "https://serzh108.github.io/ITOP_Agency",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
@@ -12,10 +11,7 @@
     "modern-normalize": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-redux": "^7.2.2",
     "react-scripts": "4.0.1",
-    "redux-persist": "^6.0.0",
-    "shortid": "^2.2.16",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
