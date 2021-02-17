@@ -30,20 +30,35 @@ export default function Page() {
     setClock(new Date());
   };
 
+  // ===----------------===
+  const deltaTimeWait = tempDate => {
+    const deltaTime = Date.now() - tempDate;
+    return deltaTime;
+  };
+
+  const [wait, setWait] = useState(0);
+  // ===----------------===
+
   const waitClock = () => {
-    setIsRun(false);
-    setFixedClock(deltaTime(clock, fixedClock));
-    setClock(new Date());
-    clearInterval(intervalId.current);
+    if (!wait) {
+      setWait(Date.now());
+      return;
+    }
+
+    if (isRun & (deltaTimeWait(wait) <= 300)) {
+      setIsRun(false);
+      setFixedClock(deltaTime(clock, fixedClock));
+      // setClock(new Date());
+      clearInterval(intervalId.current);
+    }
+    setWait(0);
   };
 
   const resetClock = () => {
     setFixedClock(0);
     setClock(new Date());
   };
-
   // ===========---=============
-
   return (
     <>
       <div className={styles.clockBlock}>
